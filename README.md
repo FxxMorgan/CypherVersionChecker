@@ -12,7 +12,7 @@ Repositorio oficial para la descarga y verificacion de seguridad de los archivos
 
 ## Que es CypherMedia
 
-CypherMedia es una aplicacion de entretenimiento para Android disenada para ofrecer una experiencia de streaming completa, rapida y sin interrupciones. Compatible con telefonos, tablets, Android TV y dispositivos Fire TV.
+CypherMedia es una aplicacion de entretenimiento para Android disenada para ofrecer una experiencia de streaming completa, rapida y sin interrupciones. Compatible con telefonos, tablets, [Proximamante] Android TV y dispositivos Fire TV.
 
 ---
 
