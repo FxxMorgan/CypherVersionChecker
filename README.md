@@ -82,15 +82,9 @@ CypherMedia es una aplicacion de entretenimiento para Android disenada para ofre
 
 Accede siempre a la version mas reciente en la seccion de [Releases](https://github.com/FxxMorgan/CypherVersionChecker/releases/latest).
 
-| Arquitectura | Dispositivos compatibles | Archivo |
-| :--- | :--- | :--- |
-| **ARM 64-bit** (Recomendado) | Telefonos modernos, tablets, Android TV 64-bit | `app-arm64-v8a-release.apk` |
-| **ARM 32-bit** | TV Box genericos, Fire TV Stick antiguos, Chromecast HD | `app-armeabi-v7a-release.apk` |
-| **x86_64** | Emuladores de PC (BlueStacks, LDPlayer, Nox) | `app-x86_64-release.apk` |
+Descarga `app-release.apk`. La APK universal incluye ARM de 64 bits, ARM de 32 bits y x86_64.
 
 **[Ir a la pagina de descargas](https://github.com/FxxMorgan/CypherVersionChecker/releases/latest)**
-
-> **Nota**: Si no sabes cual elegir, descarga la version **ARM 64-bit**. Es compatible con la gran mayoria de dispositivos Android actuales.
 
 ---
 
@@ -103,13 +97,13 @@ Antes de instalar cualquier APK descargada fuera de la Play Store, es recomendab
 **En Windows (PowerShell):**
 
 ```powershell
-Get-FileHash app-arm64-v8a-release.apk -Algorithm SHA256
+Get-FileHash app-release.apk -Algorithm SHA256
 ```
 
 **En Linux, macOS o Android (Termux):**
 
 ```bash
-sha256sum app-arm64-v8a-release.apk
+sha256sum app-release.apk
 ```
 
 ### Paso 2: Comparar con el hash oficial
